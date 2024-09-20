@@ -1,0 +1,26 @@
+{
+    "name": "decentralized-media-platform",
+    "version": "1.0.0",
+    "description": "A decentralized media platform using React and Web3.js for Ethereum or Solana integration.",
+    "main": "index.js",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "@solana/spl-token": "^0.4.8",
+        "@solana/web3.js": "^1.95.3",
+        "ipfs-http-client": "^50.1.2",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "web3": "^4.13.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.0.0",
+        "prettier": "^2.4.0",
+        "react-scripts": "^3.0.1"
+    },
+    "license": "MIT"
+}
